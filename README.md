@@ -21,7 +21,7 @@ package main; import "fmt"; func main() { fmt.Printf("%s", []byte{0xe3, 0x82, 0x
 ```
 
 ### mo_kotlin
-fun main() { println(String(byteArrayOf(0xe3.toByte(), 0x82.toByte(), 0x82.toByte()), charset("UTF-8"))) }
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val string:String=String(byteArray,charset("UTF-8"));println(string)}
 ```kotlin
-fun main() { println(String(byteArrayOf(0xe3.toByte(), 0x82.toByte(), 0x82.toByte()), charset("UTF-8"))) }
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val string:String=String(byteArray,charset("UTF-8"));println(string)}
 ```
