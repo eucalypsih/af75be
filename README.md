@@ -14,9 +14,10 @@ echo -en "\xe3\x81\x";
 echo -en "\xe3\x81\x";
 ```
 
-## mo_golang
+### mo_golang
+package main; import "fmt"; func main() { fmt.Printf("%s", []byte{0xe3, 0x82, 0x82}) }
 ```golang
-[]byte{0xe3,  0x81,  0x}
+package main; import "fmt"; func main() { fmt.Printf("%s", []byte{0xe3, 0x82, 0x82}) }
 ```
 
 ### mo_kotlin
