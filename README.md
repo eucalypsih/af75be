@@ -19,3 +19,7 @@ echo -en "\xe3\x81\x";
 []byte{0xe3,  0x81,  0x}
 ```
 
+### mo_kotlin
+```kotlin
+fun main() { println(String(byteArrayOf(0xe3.toByte(), 0x82.toByte(), 0x82.toByte()), charset("UTF-8"))) }
+```
