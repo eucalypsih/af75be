@@ -17,7 +17,7 @@ echo -en "\xe3\x81\x";
 ### mo_golang
 
 ```golang
-package main;import ("fmt");func main(){var byteArray []byte=[]byte{0xe3, 0x82, 0x82};var str string=string(byteArray);fmt.Printf("%s",str)}
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3, 0x82, 0x82};var string string=string(byteArray);fmt.Printf("%s\n",string)}
 ```
 
 ### mo_kotlin
