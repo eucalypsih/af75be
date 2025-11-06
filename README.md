@@ -26,3 +26,8 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.
 ```kotlin
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val string:String=String(byteArray,charset("UTF-8"));println(string)}
 ```
+
+### mo_rust
+```rust
+fn main(){let byte_array:&[u8]=&[0xe3, 0x82, 0x82];let string=String::from_utf8_lossy(byte_array);println!("{}", string);}
+```
