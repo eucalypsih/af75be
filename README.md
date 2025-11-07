@@ -4,9 +4,21 @@
 ## ni
 ### e381ab
 ### ni_text
-0xe3 0x81 0xab (ni) 28
+0xe3 0x81 0xab (ni) 18 170
 ```text
+に
+```
 
+### ni_bash
+echo -en "\xe3\x81\xab";
+```bash
+echo -en "\xe3\x81\xab";
+```
+
+### ni_golang
+package main;import("fmt");function main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
+```golang
+package main;import("fmt");function main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
 ```
 
 ## ni
