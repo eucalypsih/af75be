@@ -21,6 +21,11 @@ package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xa
 package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
 ```
 
+### ni_nodejs
+```javascript
+const byteArray=[0xe3,0x81,0xab];const string=Buffer.from(byteArray).toString('utf8');console.log(string);
+```
+
 ## ni
 ### e3838b
 ### ni_text
