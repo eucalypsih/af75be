@@ -1,10 +1,26 @@
 # af75be
 # af75be04cf68b982c436dad4a7925954
 
+## ni
+### e381ab
+### ni_text
+0xe3 0x81 0xab (ni) 28
+```text
+
+```
+
+## ni
+### e3838b
+### ni_text
+0xe3 0x83 0x8b ニ (ni) 25
+```text
+ニ
+```
+
 ## mo
 ### e38282
 ### mo_text
-も (mo) 82 26 130
+0xe3 0x82 0x82 も (mo) 26 130
 ```text
 も
 ```
