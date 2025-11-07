@@ -29,5 +29,5 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.
 
 ### mo_rust
 ```rust
-fn main(){let byte_array:&[u8]=&[0xe3, 0x82, 0x82];let string=String::from_utf8_lossy(byte_array);println!("{}", string);}
+use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3, 0x82, 0x82];let string:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}", string);}
 ```
