@@ -61,7 +61,7 @@ package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3, 0x82, 0
 
 ### mo_rust
 ```rust
-use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3, 0x82, 0x82];let string:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}", string);}
+use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x82,0x82];let string:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}", string);}
 ```
 
 ### mo_kotlin
