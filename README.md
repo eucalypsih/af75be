@@ -10,9 +10,9 @@
 ```
 
 ### mo_bash
-echo -en "\xe3\x81\x";
+echo -en "\xe3\x82\x82";
 ```bash
-echo -en "\xe3\x81\x";
+echo -en "\xe3\x82\x82";
 ```
 
 ### mo_golang
