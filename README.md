@@ -26,6 +26,11 @@ package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xa
 const byteArray=[0xe3,0x81,0xab];const string=Buffer.from(byteArray).toString('utf8');console.log(string);
 ```
 
+### ni_python
+```python
+byte_array:list[int]=[0xe3,0x81,0xab];string_value:str=bytes(byte_array).decode('utf-8');print(string_value);
+```
+
 ## ni
 ### e3838b
 ### ni_text
