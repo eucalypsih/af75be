@@ -30,7 +30,7 @@ echo -en "\xe3\x81\xab";
 ```
 
 ### ni_golang
-package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string stringValue=string(byteArray);fmt.Printf("%s\n", stringValue);}
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var stringValue string=string(byteArray);fmt.Printf("%s\n", stringValue);}
 ```golang
 package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
 ```
@@ -81,6 +81,6 @@ use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x82,0x82];let string
 ### mo_kotlin
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val string:String=String(byteArray,charset("UTF-8"));println(string)}
 ```kotlin
-fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val string:String=String(byteArray,charset("UTF-8"));println(string)}
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue)}
 ```
 
