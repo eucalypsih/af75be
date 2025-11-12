@@ -30,7 +30,7 @@ echo -en "\xe3\x81\xab";
 ```
 
 ### ni_golang
-package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string stringValue=string(byteArray);fmt.Printf("%s\n", stringValue);}
 ```golang
 package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xab};var string string=string(byteArray);fmt.Printf("%s\n", string);}
 ```
