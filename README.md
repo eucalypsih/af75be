@@ -1,6 +1,20 @@
 # af75be
 # af75be04cf68b982c436dad4a7925954
 
+## k
+### e381a3
+### k_text
+0xe3 0x81 0xa3 (k) 15 163
+```text
+
+```
+
+### k_rust
+use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa3];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
+```rust
+use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa3];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
+```
+
 ## ni
 ### e381ab
 ### ni_text
