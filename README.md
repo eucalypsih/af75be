@@ -10,7 +10,6 @@
 ```
 
 ### k_rust
-use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa3];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
 ```rust
 use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa3];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
 ```
