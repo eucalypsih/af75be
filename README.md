@@ -4,11 +4,17 @@
 ## de
 ### e381a7
 ### de_text
+0xe3 0x81 0xa7 で (de) 9 167 
 ```text
+で
+```
+
+### de_rust
+```rust
+fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa7];let string_value:std::borrow::Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
 ```
 
 ### de_kotlin
-0xe3 0x81 0xa7 (de) 9
 ```kotlin
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa7.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
 ```
