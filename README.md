@@ -1,6 +1,18 @@
 # af75be
 # af75be04cf68b982c436dad4a7925954
 
+## de
+### e381a7
+### de_text
+```text
+```
+
+### de_kotlin
+0xe3 0x81 0xa7 (de) 9
+```kotlin
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa7.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
+```
+
 ## k
 ### e381a3
 ### k_text
