@@ -123,3 +123,22 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x82.toByte(),0x82.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue)}
 ```
 
+### mo_cpp
+```cpp
+#include <iostream>
+#include <array>
+#include <string>
+
+int main() {
+    // Mendefinisikan array byte dengan ukuran tetap menggunakan std::array
+    std::array<unsigned char, 3> byteArray = {0xe3, 0x82, 0x82};
+
+    // Mengonversi array byte ke string
+    std::string str(byteArray.begin(), byteArray.end());
+
+    // Menampilkan string
+    std::cout << str << std::endl;
+
+    return 0;
+}
+```
