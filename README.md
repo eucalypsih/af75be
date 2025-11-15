@@ -9,6 +9,11 @@
 で
 ```
 
+### de_golang
+```golang
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xa7};var stringValue string=string(byteArray);fmt.Printf("%s",stringValue);}
+```
+
 ### de_rust
 ```rust
 fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa7];let string_value:std::borrow::Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
