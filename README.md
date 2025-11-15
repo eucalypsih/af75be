@@ -24,6 +24,18 @@ fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa7];let string_value:std::borrow::C
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa7.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
 ```
 
+## ga
+### e3818c
+### ga_text
+```text
+
+```
+
+### ga_kotlin
+```kotlin
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0x8c.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
+```
+
 ## k
 ### e381a3
 ### k_text
