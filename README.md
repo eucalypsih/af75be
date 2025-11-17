@@ -1,17 +1,6 @@
 # af75be
 # af75be04cf68b982c436dad4a7925954
 
-## zu
-### e3819a 4 154
-```text
-
-```
-
-### zu_golang
-```golang
-package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0x9a};var stringValue string=string(byteArray);fmt.Printf("%s\n",stringValue);}
-```
-
 ## mi
 ### e381bf
 ### mi_text
@@ -23,6 +12,17 @@ package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0x9
 ### mi_golang
 ```golang
 package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xbf};var stringValue string=string(byteArray);fmt.Printf("%s\n",stringValue);}
+```
+
+## zu
+### e3819a 4 154
+```text
+ず
+```
+
+### zu_golang
+```golang
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0x9a};var stringValue string=string(byteArray);fmt.Printf("%s\n",stringValue);}
 ```
 
 ## de
