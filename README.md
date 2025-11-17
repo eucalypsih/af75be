@@ -1,6 +1,18 @@
 # af75be
 # af75be04cf68b982c436dad4a7925954
 
+## mi
+### e381bf
+### mi_text
+0xe3 0x81 0xbf (mi) 3 191
+```text
+```
+
+### mi_golang
+```golang
+package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xbf};var stringValue string=string(byteArray);fmt.Printf("%s\n",stringValue);}
+```
+
 ## de
 ### e381a7
 ### de_text
