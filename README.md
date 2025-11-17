@@ -17,7 +17,7 @@ package main;import("fmt");func main(){var byteArray []byte=[]byte{0xe3,0x81,0xb
 ## zu
 ### e3819a
 ### zu_text
-0xe3 0x81 0x9a (zu) 4 154
+0xe3 0x81 0x9a (zu) 4 154 &#x305A
 ```text
 ず
 ```
