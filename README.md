@@ -6,6 +6,7 @@
 ### mi_text
 0xe3 0x81 0xbf (mi) 3 191
 ```text
+み
 ```
 
 ### mi_golang
