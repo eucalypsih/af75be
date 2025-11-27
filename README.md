@@ -80,6 +80,19 @@ use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xa3];let string
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa3.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
 ```
 
+## ho
+### e381bb
+### ho_text
+0xe3 0x81 0xbb (ho) 17 187
+```text
+
+```
+
+### ho_rust
+```rust
+use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xbb];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
+```
+
 ## ni
 ### e381ab
 ### ni_text
