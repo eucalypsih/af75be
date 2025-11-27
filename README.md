@@ -83,9 +83,9 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa3.
 ## ho
 ### e381bb
 ### ho_text
-0xe3 0x81 0xbb (ho) 17 187
+0xe3 0x81 0xbb ほ (ho) 17 187
 ```text
-
+ほ
 ```
 
 ### ho_rust
