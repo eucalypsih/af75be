@@ -88,6 +88,11 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa3.
 ほ
 ```
 
+### ho_bash
+```bash
+echo -en "\xe3\x81\xbb";
+```
+
 ### ho_rust
 ```rust
 use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xbb];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
