@@ -103,6 +103,24 @@ use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xbb];let string
 fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xbb.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
 ```
 
+### ho_java
+```java
+import java.nio.charset.StandardCharsets;
+import java.nio.charset.Charset;
+
+public class Main {
+    public static void main(String[] args) {
+        // Byte array (UTF-8 bytes untuk karakter Jepang "ほ")
+        byte[] byteArray = new byte[]{(byte) 0xe3, (byte) 0x81, (byte) 0xbb};
+        
+        // Konversi byte array ke String dengan UTF-8 decoding
+        String stringValue = new String(byteArray, StandardCharsets.UTF_8);
+        
+        System.out.println(stringValue);
+    }
+}
+```
+
 ## ni
 ### e381ab
 ### ni_text
