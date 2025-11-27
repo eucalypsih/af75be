@@ -93,6 +93,11 @@ fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xa3.
 use std::borrow::Cow;fn main(){let byte_array:&[u8]=&[0xe3,0x81,0xbb];let string_value:Cow<'_,str>=String::from_utf8_lossy(byte_array);println!("{}",string_value);}
 ```
 
+### ho_kotlin
+```kotlin
+fun main(){val byteArray:ByteArray=byteArrayOf(0xe3.toByte(),0x81.toByte(),0xbb.toByte());val stringValue:String=String(byteArray,charset("UTF-8"));println(stringValue);}
+```
+
 ## ni
 ### e381ab
 ### ni_text
