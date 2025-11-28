@@ -109,7 +109,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.charset.Charset;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // Byte array (UTF-8 bytes untuk karakter Jepang "ほ")
         byte[] byteArray = new byte[]{(byte) 0xe3, (byte) 0x81, (byte) 0xbb};
         
