@@ -132,20 +132,20 @@ public class Main {
 #include <string>
 #include <vector>
 
-// Fungsi untuk mengubah array byte menjadi string UTF-8
+// Function to convert a byte array to a UTF-8 string
 std::string bytes_to_utf8_string(const std::vector<unsigned char>& byte_array) {
-    // Membuat string dari array byte
+    // Construct a string from the byte array
     return std::string(byte_array.begin(), byte_array.end());
 }
 
 int main() {
-    // Array byte yang setara dengan &[u8] di Rust
+    // Byte array equivalent to Rust's &[u8]
     std::vector<unsigned char> byte_array = {0xe3, 0x81, 0xbb};
 
-    // Mengubah array byte menjadi string UTF-8
+    // Convert byte array to UTF-8 string
     std::string string_value = bytes_to_utf8_string(byte_array);
 
-    // Menampilkan hasilnya
+    // Output the string
     std::cout << string_value << std::endl;
 
     return 0;
