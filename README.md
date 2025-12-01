@@ -126,6 +126,32 @@ public class Main {
 }
 ```
 
+### ho_cpp
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
+
+// Fungsi untuk mengubah array byte menjadi string UTF-8
+std::string bytes_to_utf8_string(const std::vector<unsigned char>& byte_array) {
+    // Membuat string dari array byte
+    return std::string(byte_array.begin(), byte_array.end());
+}
+
+int main() {
+    // Array byte yang setara dengan &[u8] di Rust
+    std::vector<unsigned char> byte_array = {0xe3, 0x81, 0xbb};
+
+    // Mengubah array byte menjadi string UTF-8
+    std::string string_value = bytes_to_utf8_string(byte_array);
+
+    // Menampilkan hasilnya
+    std::cout << string_value << std::endl;
+
+    return 0;
+}
+```
+
 ## ni
 ### e381ab
 ### ni_text
